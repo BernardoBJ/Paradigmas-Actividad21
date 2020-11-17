@@ -1,23 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import Foco from './components/Foco'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <table width="100%">
+        <tbody>
+          <tr>
+            <td>
+              <h3>Foco 1: Sala</h3>
+              <Foco></Foco>
+            </td>
+            <td>
+              <h3>Foco 2: Comedor</h3>
+              <Foco></Foco>
+            </td>
+            <td>
+              <h3>Foco 3: Cocina</h3>
+              <Foco></Foco>
+            </td>
+            <td>
+              <h3>Foco 4: Estancia</h3>
+              <Foco></Foco>
+            </td>
+            <td>
+              <h3>Foco 5: Recamara principal</h3>
+              <Foco></Foco>
+            </td>
+            <td>
+              <h3>Foco 6: Recamara de los niños</h3>
+              <Foco></Foco>
+            </td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   );
 }
